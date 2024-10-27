@@ -36,3 +36,7 @@ jobs:
        id: init
        run: terraform init 
 
+
+     - name: Terraform apply
+       id: apply
+       run: terraform apply --auto-approve 
