@@ -23,6 +23,7 @@ jobs:
        working-directory: ./terraform
  
    steps:
+     - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
      - name: Checkout the repository to the runner
        uses: actions/checkout@v2
 
